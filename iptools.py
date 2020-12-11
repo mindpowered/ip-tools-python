@@ -4991,7 +4991,7 @@ class iptools_IPTools:
             data.push(maglev_MagLevString.fromString("IPTools.SubnetMaskToCIDR"))
             data.push(maglev_MagLevString.fromString("iptools"))
             bus.call("MindPowered.Telemetry.Send",data)
-            err = maglev_MagLevError.create(-20000,"Method 'IPTools.SubnetMaskToCIDR' has not yet been implemented. Please email support@mindpowered.dev",data)
+            err = maglev_MagLevError.create(-20000,"You are trying to use the 'IPTools.SubnetMaskToCIDR' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.",data)
             result = maglev_MagLevResult.fromError(err)
             return result
         self.maglev.register("IPTools.SubnetMaskToCIDR",maglev_MagLevFunction.fromFunction(_hx_local_0))
@@ -5001,7 +5001,7 @@ class iptools_IPTools:
             data.push(maglev_MagLevString.fromString("IPTools.CalcCIDR"))
             data.push(maglev_MagLevString.fromString("iptools"))
             bus.call("MindPowered.Telemetry.Send",data)
-            err = maglev_MagLevError.create(-20000,"Method 'IPTools.CalcCIDR' has not yet been implemented. Please email support@mindpowered.dev",data)
+            err = maglev_MagLevError.create(-20000,"You are trying to use the 'IPTools.CalcCIDR' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.",data)
             result = maglev_MagLevResult.fromError(err)
             return result
         self.maglev.register("IPTools.CalcCIDR",maglev_MagLevFunction.fromFunction(_hx_local_1))
@@ -5011,7 +5011,7 @@ class iptools_IPTools:
             data.push(maglev_MagLevString.fromString("IPTools.IPToDecimal"))
             data.push(maglev_MagLevString.fromString("iptools"))
             bus.call("MindPowered.Telemetry.Send",data)
-            err = maglev_MagLevError.create(-20000,"Method 'IPTools.IPToDecimal' has not yet been implemented. Please email support@mindpowered.dev",data)
+            err = maglev_MagLevError.create(-20000,"You are trying to use the 'IPTools.IPToDecimal' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.",data)
             result = maglev_MagLevResult.fromError(err)
             return result
         self.maglev.register("IPTools.IPToDecimal",maglev_MagLevFunction.fromFunction(_hx_local_2))
@@ -5021,7 +5021,7 @@ class iptools_IPTools:
             data.push(maglev_MagLevString.fromString("IPTools.IP4FromDecimal"))
             data.push(maglev_MagLevString.fromString("iptools"))
             bus.call("MindPowered.Telemetry.Send",data)
-            err = maglev_MagLevError.create(-20000,"Method 'IPTools.IP4FromDecimal' has not yet been implemented. Please email support@mindpowered.dev",data)
+            err = maglev_MagLevError.create(-20000,"You are trying to use the 'IPTools.IP4FromDecimal' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.",data)
             result = maglev_MagLevResult.fromError(err)
             return result
         self.maglev.register("IPTools.IP4FromDecimal",maglev_MagLevFunction.fromFunction(_hx_local_3))
@@ -5031,7 +5031,7 @@ class iptools_IPTools:
             data.push(maglev_MagLevString.fromString("IPTools.IP6FromDecimal"))
             data.push(maglev_MagLevString.fromString("iptools"))
             bus.call("MindPowered.Telemetry.Send",data)
-            err = maglev_MagLevError.create(-20000,"Method 'IPTools.IP6FromDecimal' has not yet been implemented. Please email support@mindpowered.dev",data)
+            err = maglev_MagLevError.create(-20000,"You are trying to use the 'IPTools.IP6FromDecimal' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.",data)
             result = maglev_MagLevResult.fromError(err)
             return result
         self.maglev.register("IPTools.IP6FromDecimal",maglev_MagLevFunction.fromFunction(_hx_local_4))
@@ -5041,7 +5041,7 @@ class iptools_IPTools:
             data.push(maglev_MagLevString.fromString("IPTools.IPv4ToIPv6"))
             data.push(maglev_MagLevString.fromString("iptools"))
             bus.call("MindPowered.Telemetry.Send",data)
-            err = maglev_MagLevError.create(-20000,"Method 'IPTools.IPv4ToIPv6' has not yet been implemented. Please email support@mindpowered.dev",data)
+            err = maglev_MagLevError.create(-20000,"You are trying to use the 'IPTools.IPv4ToIPv6' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.",data)
             result = maglev_MagLevResult.fromError(err)
             return result
         self.maglev.register("IPTools.IPv4ToIPv6",maglev_MagLevFunction.fromFunction(_hx_local_5))
@@ -5051,7 +5051,7 @@ class iptools_IPTools:
             data.push(maglev_MagLevString.fromString("IPTools.ExpandIPv6"))
             data.push(maglev_MagLevString.fromString("iptools"))
             bus.call("MindPowered.Telemetry.Send",data)
-            err = maglev_MagLevError.create(-20000,"Method 'IPTools.ExpandIPv6' has not yet been implemented. Please email support@mindpowered.dev",data)
+            err = maglev_MagLevError.create(-20000,"You are trying to use the 'IPTools.ExpandIPv6' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.",data)
             result = maglev_MagLevResult.fromError(err)
             return result
         self.maglev.register("IPTools.ExpandIPv6",maglev_MagLevFunction.fromFunction(_hx_local_6))
@@ -5061,7 +5061,7 @@ class iptools_IPTools:
             data.push(maglev_MagLevString.fromString("IPTools.CompressIPv6"))
             data.push(maglev_MagLevString.fromString("iptools"))
             bus.call("MindPowered.Telemetry.Send",data)
-            err = maglev_MagLevError.create(-20000,"Method 'IPTools.CompressIPv6' has not yet been implemented. Please email support@mindpowered.dev",data)
+            err = maglev_MagLevError.create(-20000,"You are trying to use the 'IPTools.CompressIPv6' method but it's not quite done yet. Please email support@mindpowered.dev to find out when it will be done.",data)
             result = maglev_MagLevResult.fromError(err)
             return result
         self.maglev.register("IPTools.CompressIPv6",maglev_MagLevFunction.fromFunction(_hx_local_7))
