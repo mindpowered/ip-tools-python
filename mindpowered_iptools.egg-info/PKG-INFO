@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: mindpowered-iptools
-Version: 0.0.13
+Version: 0.0.14
 Summary: Tools for working with IP Addresses
 Home-page: https://mindpowered.dev/
 Author: Mind Powered Corporation
@@ -9,6 +9,9 @@ License: UNLICENSED
 Description: 
         iptools
         =======
+        Tools for working with IP Addresses
+        
+        ![Build Status](https://mindpowered.dev/assets/images/github-badges/build-passing.svg)
         
         Contents
         ========
