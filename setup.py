@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='mindpowered-iptools',
-    version='0.0.16',
+    version='0.0.17',
     author="Mind Powered Corporation",
     author_email="support@mindpowered.dev",
-    license="CPAL-1.0",
+    license="MIT",
     url="https://mindpowered.dev/",
     description="Tools for working with IP4/IP6 IP Addresses including IPv4, IPv6, CIDR, and Subnet Masks",
     long_description=long_description,
@@ -18,6 +18,7 @@ setuptools.setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
+        'License :: OSI Approved :: MIT License',
     ],
     install_requires=[
         'mindpowered-maglev',
